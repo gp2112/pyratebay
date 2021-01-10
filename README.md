@@ -1,7 +1,14 @@
 # pyratebay
 A python module for The Pirate Bay's API
 
-# Get a Torrent by TPB's id:
+# Installing
+```bash
+git clone https://github.com/gp2112/pyratebay.git
+cd pyratebay
+pip3 install .
+```
+
+# Get a Torrent by TPB's id
 ```
 >>> import pyratebay
 >>> 
