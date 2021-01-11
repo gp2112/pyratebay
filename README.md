@@ -30,7 +30,7 @@ URL: https://thepiratebay.org/description.php?id=3212527
 ```
 >>> import pyratebay
 >>>
->>> torrents = pyratebay.search('metallica', audio=True)
+>>> torrents = pyratebay.search('metallica', cats=['audio'])
 >>> for torrent in torrents:
 ...      print(torrent)
 Name: metallica-garage inc 1998 -TFaMP3
