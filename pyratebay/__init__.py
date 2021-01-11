@@ -1,4 +1,4 @@
-from torrent import Torrent, URL
+from pyratebay.torrent import Torrent, URL
 import requests
 
 def search(keyword, audio=False, video=False, applications=False, games=False, porn=False, other=False):
