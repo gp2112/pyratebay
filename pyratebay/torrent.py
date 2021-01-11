@@ -9,8 +9,8 @@ class Torrent:
 		self.url = 'https://thepiratebay.org/description.php?id='+id
 		self.name = name
 		self.info_hash = info_hash
-		self.leechers = le
-		self.seeders = se
+		self.leechers = int(le)
+		self.seeders = int(se)
 		self.num_files = num_files
 		self.size = size
 		self.username = username
