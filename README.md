@@ -4,8 +4,7 @@ A python module for The Pirate Bay's API
 # Installing
 ```bash
 git clone https://github.com/gp2112/pyratebay.git
-cd pyratebay
-pip3 install .
+pip install pyratebay/.
 ```
 
 # Get a Torrent by TPB's id
